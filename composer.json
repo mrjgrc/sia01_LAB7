@@ -1,0 +1,20 @@
+{
+    "name": "acer/sia-lab7",
+    "description": "SIA Lab 7 - PHP Router and MVC API",
+    "type": "project",
+    "authors": [
+        {
+            "name": "JmAgustin01",
+            "email": "148036402+mjgrc@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
